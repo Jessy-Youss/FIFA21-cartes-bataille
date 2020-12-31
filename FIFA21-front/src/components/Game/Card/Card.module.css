@@ -1,0 +1,79 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ .wrapper .futPlayerCard{
+    position: relative;
+    width:300px;
+    height:410px;
+    background-image: url(https://static-2.gumroad.com/res/gumroad/7969999918752/asset_previews/2d2757dd76c642dacc6199885eb178e8/retina/png.png);
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-left: 8%;
+ }
+  
+.futPlayerCard .playerCardTop{
+    position: relative;
+    color:black;
+    padding: 0 1.5rem;
+}
+
+.playerCardTop .playerInfoTop{
+    position: absolute;
+    line-height: 2.2rem;
+    margin-top: 23px;
+}
+
+.futPlayerCard .playerCardBottom{
+    position: relative;
+    color: black;
+}
+
+
+.playerCardBottom .playerName{
+    text-align: center;
+    margin: auto;
+    margin-right: 68px;
+    margin-top: 30px;
+    font-size:1.6rem;
+    border-bottom: 1px solid black;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.playerCardBottom .horizontalLine{
+    position: absolute;
+    height: 70px;
+    border-left: 1px solid #000;
+    left:120px;
+    top:50px
+}
+
+.playerCardBottom .playerInfoBottom{
+    position:absolute;
+    top: 50px;
+    left: 16%;
+}
+
+
+.futPlayerCard .victoryWord{
+    position: absolute;
+    font-size: 25px;
+    top: 100%;
+    left: 35%;
+    text-shadow:-1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;
+     color:#fff;
+}
