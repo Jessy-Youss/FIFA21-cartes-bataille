@@ -6,7 +6,7 @@ Front end:
 
 -React
 
--CSS + Tailwid
+-CSS + Tailwind
 
 -Axios HTTP
 
